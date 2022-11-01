@@ -22,6 +22,8 @@ function login() {
         },
         body: JSON.stringify(req)
     })
+        .then((res) => {
+    })
 }
 
 console.log(id);
